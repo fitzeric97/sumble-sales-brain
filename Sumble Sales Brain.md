@@ -94,27 +94,47 @@ The right framing: Sumble is **not** trying to be the contact database. It's the
 
 ## Sumble's Plays / Value Narratives
 
-The four plays — they're not mutually exclusive, most accounts fit 2+:
+The five plays — they're not mutually exclusive, most accounts fit 2+. Play #1 is the **headline use case** for almost every customer conversation.
 
-### 1. Tech-stack-driven prospecting (displacement / attach)
+### 1. ⭐ MQL enrichment — turn marketing-sourced contacts into sales-ready opps (HEADLINE PLAY)
+The single highest-leverage motion for Sumble. Marketing already generates the contact (web form, gated content, event scan, ad click). Sumble enriches that contact with the **context** that decides whether it converts: *what's actually happening at their company, what initiatives they own, what signals say "this is real budget, not tire-kicking."*
+
+- **Buyer:** Sales leadership (CRO, VP Sales) + Marketing leadership (CMO, VP Demand Gen). The pitch lands cleanest when both are in the room because it's the one play that makes both sides look better.
+- **The problem we solve:** MQLs hit Salesforce as a name + email + company. Sales reps work them blind, or burn cycles on hand-research, or — most common — let 60–80% rot because they "don't know enough yet." Marketing gets blamed for "bad leads"; sales gets blamed for "not working leads." Both are right. Both lose.
+- **Sumble unlock:** every MQL gets auto-enriched at the moment it lands with:
+  - **Active initiatives at the account** (what they're hiring for, projects in flight, recent leadership moves) → *why now.*
+  - **Pipeline drivers specific to that company** (what their stack reveals about budget cycle, team size, recent investment) → *what's the deal worth.*
+  - **Differentiating angles** (the one signal that separates this account from the 50 others that look identical on firmographics) → *what to say in the first reply.*
+  - **The right second contact** to multi-thread to, surfaced from the org graph, before the rep has to ask "who else should I be talking to?"
+- **Outcome reps feel:** every MQL arrives with a 30-second briefing instead of a Google search. SDRs and AEs reply faster, more specifically, and to the right person.
+- **Outcome marketing feels:** MQL → SQL conversion goes up; the "lead quality" debate ends because every lead carries its own context.
+- **How to demo it:** take a real recent MQL from the prospect's CRM (or a peer's logo), show the unenriched record, then pull Sumble open and walk through the four bullets above live. The *contrast* is the demo.
+- **Discovery questions:**
+  - "Walk me through what happens when an MQL hits a rep's queue — what do they actually know about the account?"
+  - "What's your MQL → SQL conversion rate? What does marketing think it should be?"
+  - "How much time does a rep spend researching a single MQL before reaching out — and how much of that is Google + LinkedIn stitched together?"
+  - "When a deal closes from an inbound lead, can you point to *what the rep said* in the first reply that made it work?"
+- **Metric to anchor on:** MQL → SQL conversion rate (and time-to-first-meaningful-touch). If they don't measure either, that *is* the conversation.
+
+### 2. Tech-stack-driven prospecting (displacement / attach)
 Find buyers using competitor X (or complement Y) and reach the team using it.
 - **Buyer:** AE-led RevOps; sales reps for displacement.
 - **Sumble unlock:** *who* on the team uses the tool, not just whether the company uses it.
 - **Common pattern:** "Show me every account using [Competitor] in their CS team but not in their Sales team — those are split-stack consolidation plays."
 
-### 2. Hiring intent / job-posting signals
+### 3. Hiring intent / job-posting signals
 Surge hiring on a function = budget allocated = buying window opening.
 - **Buyer:** SDR/AE, demand gen.
 - **Sumble unlock:** structured hiring trends (Sumble normalizes job postings into roles + technologies + team growth deltas), not just "they're hiring."
 - **Common pattern:** "Companies that hired 5+ Data Engineers in the last 90 days" → outbound trigger for data tooling.
 
-### 3. Account prioritization for AEs
+### 4. Account prioritization for AEs
 Score the territory so reps work the right accounts first.
 - **Buyer:** CRO / VP Sales / RevOps.
 - **Sumble unlock:** signals → score → ranked territory list. Replace gut-feel + ZoomInfo employee count with multi-signal model.
 - **Common pattern:** Build a custom scoring rubric per persona/play; deliver as Salesforce-ranked list.
 
-### 4. ABM list-building for marketing
+### 5. ABM list-building for marketing
 Build target lists from firmographic + tech + signal filters.
 - **Buyer:** CMO / VP Demand Gen / ABM lead.
 - **Sumble unlock:** filters that other ABM tools don't have (e.g., "uses Snowflake AND hiring ML eng AND has VP-level Data role").
