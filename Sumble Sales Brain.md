@@ -94,7 +94,7 @@ The right framing: Sumble is **not** trying to be the contact database. It's the
 
 ## Sumble's Plays / Value Narratives
 
-The five plays — they're not mutually exclusive, most accounts fit 2+. Play #1 is the **headline use case** for almost every customer conversation.
+The six plays — they're not mutually exclusive, most accounts fit 2+. Plays #1 and #2 are the **headline pair** for almost every customer conversation: MQL enrichment is the moment-of-truth motion, CRM enrichment is the always-on layer that makes it scalable.
 
 ### 1. ⭐ MQL enrichment — turn marketing-sourced contacts into sales-ready opps (HEADLINE PLAY)
 The single highest-leverage motion for Sumble. Marketing already generates the contact (web form, gated content, event scan, ad click). Sumble enriches that contact with the **context** that decides whether it converts: *what's actually happening at their company, what initiatives they own, what signals say "this is real budget, not tire-kicking."*
@@ -116,25 +116,46 @@ The single highest-leverage motion for Sumble. Marketing already generates the c
   - "When a deal closes from an inbound lead, can you point to *what the rep said* in the first reply that made it work?"
 - **Metric to anchor on:** MQL → SQL conversion rate (and time-to-first-meaningful-touch). If they don't measure either, that *is* the conversation.
 
-### 2. Tech-stack-driven prospecting (displacement / attach)
+### 2. ⭐ CRM enrichment — make sure AEs and reps target the right accounts with the right messaging (HEADLINE PLAY)
+The always-on operational counterpart to Play #1. Where MQL enrichment fires at the *moment* a marketing-sourced lead lands, CRM enrichment is the **persistent layer** that lives across every account in Salesforce, so reps are working the right accounts with the right buying group and the right message — every day, not just at MQL touchpoints.
+
+- **Buyer:** CRO + VP Sales (the rep productivity story) + RevOps (the data quality + integration story). Most champion: RevOps. Most decision power: CRO.
+- **The problem we solve:** Salesforce account records are graveyards. Stale technographics, outdated org charts, no project signal, no play match, no messaging guidance. AEs do their best research on Tier-1 accounts, then run the rest of the territory blind. The 33%-attainment SMB / Mid-Market segments aren't a talent problem — they're a **signal-per-account problem.** Strategic AEs work ~4 deals a year on accounts they know cold (54% attainment); SMB AEs work 22-36 deals a year on accounts they barely know (33% attainment). The difference is signal density.
+- **Sumble unlock:** every account in the territory gets enriched on a recurring basis with:
+  - **Right account:** prioritized by current signal pattern (initiatives + hiring + tooling + change events), refreshed continuously — not a one-time score.
+  - **Right buying group:** the 3–5 people inside the account who actually own the decision, surfaced from the org graph. Most aren't the contact already in Salesforce.
+  - **Right play:** the specific play whose signal pattern fits this account *right now* (e.g., "Conversational AI hiring surge + IPO timing → AI Transformation play with [peer customer] proof").
+  - **Right message:** the specific 2–3 signals an AE should lead with, plus the matched peer customer / proof point. Eliminates the "what do I say?" stall.
+- **Where it lives:** Salesforce account fields + Outreach sequence personalization tokens. Reps don't open another tool — Sumble enrichment shows up where they already work.
+- **Outcome reps feel:** every account in the territory is "warmed up" — the AE no longer chooses between 4 well-researched accounts and 30 dark ones. The reply rate gap between strategic and SMB outreach narrows because the *signal density* gap narrows.
+- **Outcome leadership feels:** SMB / Mid-Market attainment moves toward strategic-AE numbers without changing headcount. Same reps, same quota, more pipeline.
+- **Discovery questions:**
+  - "Walk me through what's on a typical Salesforce account record when an AE opens it cold — what do they actually know?"
+  - "What's the attainment gap between your strategic and SMB segments? What do you attribute it to?"
+  - "When a rep needs to multi-thread, how do they figure out the buying group today — and how often is the contact already in Salesforce wrong or stale?"
+  - "How specific is the average outbound email a rep sends? When did you last spot-check?"
+  - "If every account in the territory had the same depth of context as your top 20, what would change?"
+- **Metrics to anchor on:** segment-level attainment (SMB / Mid-Market vs. Strategic), pipeline-per-rep, MQL→SQL conversion (Play #1 lives downstream of CRM enrichment quality), reply rate on cold outbound.
+
+### 3. Tech-stack-driven prospecting (displacement / attach)
 Find buyers using competitor X (or complement Y) and reach the team using it.
 - **Buyer:** AE-led RevOps; sales reps for displacement.
 - **Sumble unlock:** *who* on the team uses the tool, not just whether the company uses it.
 - **Common pattern:** "Show me every account using [Competitor] in their CS team but not in their Sales team — those are split-stack consolidation plays."
 
-### 3. Hiring intent / job-posting signals
+### 4. Hiring intent / job-posting signals
 Surge hiring on a function = budget allocated = buying window opening.
 - **Buyer:** SDR/AE, demand gen.
 - **Sumble unlock:** structured hiring trends (Sumble normalizes job postings into roles + technologies + team growth deltas), not just "they're hiring."
 - **Common pattern:** "Companies that hired 5+ Data Engineers in the last 90 days" → outbound trigger for data tooling.
 
-### 4. Account prioritization for AEs
-Score the territory so reps work the right accounts first.
+### 5. Account prioritization for AEs
+Score the territory so reps work the right accounts first. (Subset of CRM enrichment, but worth calling out as a standalone for buyers focused on territory design.)
 - **Buyer:** CRO / VP Sales / RevOps.
 - **Sumble unlock:** signals → score → ranked territory list. Replace gut-feel + ZoomInfo employee count with multi-signal model.
 - **Common pattern:** Build a custom scoring rubric per persona/play; deliver as Salesforce-ranked list.
 
-### 5. ABM list-building for marketing
+### 6. ABM list-building for marketing
 Build target lists from firmographic + tech + signal filters.
 - **Buyer:** CMO / VP Demand Gen / ABM lead.
 - **Sumble unlock:** filters that other ABM tools don't have (e.g., "uses Snowflake AND hiring ML eng AND has VP-level Data role").
@@ -145,6 +166,70 @@ Build target lists from firmographic + tech + signal filters.
 > *"ZoomInfo and Apollo gave you contacts. Sumble gives you the **context** that decides which contacts matter this quarter — and what to say to them."*
 
 Lead with that. Then drop into whichever play fits the buyer in front of you.
+
+---
+
+## Reference Pitch: The Zendesk Strategic Brief (worked example)
+
+This is the canonical pitch arc for Plays #1 + #2 combined. It's a real internal-discussion deck (`Sumble_Zendesk_MQL_3.html`) built for Zendesk and it's the template Eric should adapt for any prospect with a similar shape: high inbound MQL volume, large AE org, AI/AR pressure from leadership, segmented attainment gap.
+
+### The arc (18 slides, summarized)
+
+1. **The strategic context.** Anchor in their CEO's number. For Zendesk: "$500M AI ARR target. $200M today. The path runs through a $700M pipeline gap." (Tom Eggemeier, AWS re:Invent 2025.) Net new ARR needed × 4× pipeline coverage = $1.2B in net-new pipeline. ~1,000 AEs × $500K each = $500M sourced. **Gap: $700M.**
+2. **The problem in one number.** Today's MQL → SQL conversion: ~1%. Industry-typical for B2B inbound. Marketing hits volume targets, SDRs work the queue, **99% never becomes pipeline.**
+3. **The reframe.** *"You don't have a lead problem. You have a context problem."* Adding more leads, more sequences, more nurture won't fix it. The bottleneck is the moment an SDR opens a fresh MQL and sees a name, a title, an asset — and almost nothing else.
+4. **A real lead.** Pick one specific, non-obvious example. In the Zendesk deck: a senior banker at Morgan Stanley visits the Zendesk help center. No form fill. One page view. Identified by visitor-tracking.
+5. **Before — the SDR's view.** Show the actual MQL record in their tool. A name, a title, a firm, a help-center page view. A "Research with AI" button — *the system itself admitting it doesn't have enough context.*
+6. **The SDR's three options, none of which convert.**
+   - Spend 20 minutes researching → triages one lead, ignores the queue.
+   - Send a generic nudge → 2% reply rate, opportunity dies politely.
+   - Skip it entirely → opportunity dies quietly.
+7. **Sumble detects the trigger.** *Why* was the banker on the help center? In the Zendesk deck: he was researching for **Acko's $2–2.5B IPO mandate.** This is the inference no other tool makes.
+8. **The transitive opportunity.** *"The MQL was Oscar. The opportunity is Acko."* Reverse-IP tools surface visitors. Intent platforms surface topics. Neither traces a senior banker's visit back to the deal he was mandated on. **Sumble didn't enrich the lead — Sumble re-routed the deal.**
+9. **The signal pattern at the real account.** Concrete bullets:
+   - 9 Conversational AI + 7 LLM engineer reqs tied to customer-facing automation
+   - 30+ active claims & customer service ops roles across five Indian metros
+   - 5% workforce reduction (April 2026) publicly tied to "AI integration"
+   - DRHP filing window opens H2 2026 — operational tooling decisions get locked in *now*
+10. **The buying group, surfaced.** Four people. Three at Acko. *None filled out a form.* Multi-thread sequence ready, already enriched, already linkable.
+11. **Match to their plays.** Show how the account's signal pattern triggers their internal plays — and name the specific peer customer whose case study lands. (For Zendesk: AI Transformation play, Lush + Siemens proofs.)
+12. **Same hour, two emails.** This is the killer slide. Show the generic email a rep sends today next to the specific email Sumble enables.
+    - Generic: *"Hi Oscar — I noticed you visited our help center recently. Just wanted to reach out and see if there's anything specific we can help you find..."*
+    - Specific: *"Animesh — I'll be specific about why I'm reaching out, because I know the next 12 months at Acko are going to be ferocious. Morgan Stanley, ICICI, and Kotak just got named on the IPO. Your team is up to 9 Conversational AI reqs and 7 LLM engineer roles, and the April workforce restructuring around AI integration was a clear public signal. Meanwhile you're serving 75M users with ~1,300 employees across five metros — the math doesn't support staying on email-and-tickets through the DRHP window. This is the exact pattern we ran with Lush (369% ROI) and Siemens (23% productivity lift). Worth a 25-minute conversation? I'd loop in Rohan from your AI side."*
+13. **The aggregate impact.** *"Same 1,000 MQLs. 7× more SQLs."* Reply rate jumps from 4% to 22-28%.
+14. **The attainment gap visualized.** Strategic AEs hit 54% attainment ($110-130K avg deal, ~4 deals/yr). SMB AEs hit 33% ($16.5K avg deal, ~22-36 deals/yr). *"The difference isn't talent. It's signal-per-account."* (Source: RepVue, 1,343 verified Zendesk seller ratings.)
+15. **The under-worked majority.** The biggest gains aren't from the leads reps already work — they're from the cold-bucket leads getting skipped today. Generic-to-specific lift on engaged leads: 4% → 18-22%. Cold-bucket lift: pure incremental SQL because the alternative is zero outreach.
+16. **The category claim.** *"Other tools tell you who they are. Sumble tells you what they're being mandated to do."* Connecting deal mandate + hiring graph + buying group + the right play in time for the SDR's first email requires four structured datasets that exist together in exactly one place.
+17. **The land.** *"Your funnel doesn't need more leads. It needs the layer between record and action."* Three-step rollout:
+    1. Run 90 days on a cohort — one segment, one SDR pod, measure conversion lift.
+    2. Pipe into Salesforce + Outreach — enrichment as account fields and play matches.
+    3. Roll out to the full team — *same MQL volume, materially more pipeline. Marketing's number stays the same; sales' number changes.*
+
+### How to adapt this arc to a new prospect
+
+Replace four anchor variables and the rest follows:
+
+| Variable | What to find | Where to find it |
+|---|---|---|
+| **The CEO number** | Their public ARR / pipeline / growth target | Earnings calls, investor day decks, conference keynotes |
+| **The real MQL example** | One non-obvious help-center / docs / pricing-page visitor whose backstory is interesting | Their own analytics + Sumble enrichment of recent visitors / form fills |
+| **The signal pattern** | 4 bullets that tell the buying story (hiring + restructuring + timing trigger + scale) | Sumble account profile |
+| **The peer proof points** | 2 customer logos with hard numbers (ROI %, productivity lift, conversion) | Their own marketing site / case studies |
+
+The structure (problem → reframe → real example → before/after → aggregate impact → category claim → land) doesn't change. The variables do.
+
+### When to use this arc
+
+- Account has high inbound volume + a stretched ARR target + a known attainment gap (segmented sales org).
+- Champion is RevOps; economic buyer is CRO or CMO.
+- They've already tried "more leads" and it didn't move the number.
+- You can find a real, specific, non-obvious MQL example for them. Without that, the "before / after" emails fall flat.
+
+### When NOT to use this arc
+
+- Early-stage GTM with no segmentation in their AE org (no attainment gap to exploit).
+- Pure SMB outbound shop — the math is different and the deck's strategic-vs-SMB framing doesn't land.
+- Buyer hasn't confirmed they care about MQL→SQL conversion. Run discovery first; don't pitch this deck cold.
 
 ---
 
