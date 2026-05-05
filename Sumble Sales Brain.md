@@ -335,6 +335,58 @@ Talking *about* the prospect's Sumble usage instead of *to* the prospect about t
 
 The other failure: running inbound voice (*"welcome to Sumble"*) on an outbound target who never signed up — they'll bounce. Conversely, opening inbound with formal outbound ceremony (*"I'll be specific about why I'm reaching out…"*) wastes the warmth they gave you by signing up.
 
+### Canonical patterns (ratified 2026-05-05)
+
+After multiple iterations across inbound and outbound, these are the approved shapes. Use as templates.
+
+**Inbound (Slack-sourced lead followed up):**
+
+```
+Subject: A play for [their team / their motion]
+
+Hi [Name],
+
+[Warm 1-line receipt: "Welcome aboard." / "Wanted to circle back since [date]." /
+"Welcome aboard, you and [teammate] too."]
+
+Here's the play. [Specific non-obvious signal mapped to their product — the
+kind of thing only Sumble MCP would surface]. That combo is your [first-meeting
+list / in-market list]. ZoomInfo can't [tag / surface] that. Sumble can.
+
+[Competitor 1 frame]. [Competitor 2 frame]. [Prospect] wins on [their wedge].
+Sumble finds the accounts where that wedge lands.
+
+[Low-friction reply ask — not a meeting.]
+
+Eric
+Account Executive | Sumble
+```
+
+**Outbound (target picked, no inbound signal):**
+
+```
+Subject: A play for [their company / their motion]
+
+Hi [Name],
+
+Saw [the public signal: the rebuild / new VP / Series C / acquisition].
+[Inferred pipeline math from segment averages: each rep needs ~$XM coverage,
+multiply by N hires.]
+
+Here's the play. [Specific non-obvious signal]. Those are [Product] buyers.
+ZoomInfo can't surface that. Sumble can.
+
+[Competitor frame, named explicitly.] [Prospect] wins on [wedge]. Sumble finds
+where that pain just hit.
+
+[Specific reply ask, e.g. "Worth 20 minutes to compare 50?"]
+
+Eric
+Account Executive | Sumble
+```
+
+Both shapes hit the same five beats: warm receipt → play with non-obvious signal → competitive frame → wedge statement → low-friction reply. Both stay under the universal email rules (plain text, under 100 words, subject under 40 chars, no em-dashes / bullets / numbered lists).
+
 ---
 
 ## Discovery — Command of the Message Cuts
