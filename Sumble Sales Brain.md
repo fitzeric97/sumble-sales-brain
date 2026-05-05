@@ -256,6 +256,44 @@ Use it when a buyer compares us to ZoomInfo / Apollo / Clay. It's the single sen
 
 ---
 
+## Inbound vs Outbound Voice
+
+Two different motions, same email rules. Don't mix them up — the wrong voice for the channel kills the message.
+
+### Inbound (someone signed up — we're following up)
+
+- **Where it comes from:** Slack alerts in `#unassigned-p0/p1/p2-leads-new-logos`.
+- **What we have:** their actual Sumble usage in the thread (queries, filters, viewed orgs, paid exports, MCP sessions, Pro subscriptions).
+- **Permission:** implicit — they opted in.
+- **Open:** *"Welcome to Sumble."* / *"Welcome back."*
+- **Backbone:** industry tension → their Sumble usage as receipt that we read them right → proposed play → low-friction reply.
+- **Tone:** warm, peer-level. They've earned the casual register.
+- **Workflow:** pull Slack thread → WebFetch their company for industry/GTM context → draft. ~10 min per lead.
+
+### Outbound (we picked the target — they don't know us)
+
+- **Where it comes from:** territory plan, TAM list, 1:1 priority pursuit.
+- **What we have:** public signals via Sumble MCP — hiring trends, in-flight projects, leadership moves, tech adoption, change events.
+- **Permission:** must be earned in the message itself.
+- **Open:** named external trigger — a public move, industry inflection, or specific event at their company.
+- **Backbone:** external trigger → quantified internal signal (from MCP) → operational tension that signal implies → optional peer proof → specific next step or low-friction reply.
+- **Tone:** business-led, sharper. Earn attention with specificity, not warmth.
+- **Sales Brain reference:** the **Animesh / Acko Zendesk-deck email** above is the outbound gold standard, not an inbound shape.
+- **Workflow:** pick target → `GetMyCompanyProfile` (free) → `EnrichOrganization` + `FindJobs` + `FindPeople` on target → synthesize *"why now"* → identify the right buyer in the org graph → draft. ~20 min per account.
+
+### What both share
+
+- Email rules in full: plain text, subject under 40 chars, under 100 words total, no sentence over 20 words, no bullets / numbered lists / em-dashes, sign off `Eric / Account Executive | Sumble`.
+- Lead with an observation about THEM, not us.
+- One specific data point per email — the more concrete, the better.
+- Vary openers across a batch.
+
+### The biggest mistake
+
+Running inbound voice (*"welcome to Sumble, you ran 200 queries"*) on an outbound target who never signed up — they'll bounce. Conversely, opening inbound with formal outbound ceremony (*"I'll be specific about why I'm reaching out, because…"*) wastes the warmth they gave you by signing up.
+
+---
+
 ## Discovery — Command of the Message Cuts
 
 Run discovery on **before-state pain → required capabilities → metrics → proof**. The four required capabilities Sumble delivers, with discovery questions for each:
