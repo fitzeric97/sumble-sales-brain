@@ -438,11 +438,15 @@ A specialized outbound motion: stand in the target's shoes, deep-research their 
 3. Map their GTM data stack (`EnrichOrganization` filtered to Sumble competitors + complementary tools) — exposes displacement zones.
 4. Map active initiatives via hiring (`FindJobs` on Marketing/Sales/RevOps/AI roles) — grounds the "why now."
 5. Map senior leadership (`FindPeople` filtered to Marketing/Sales/RevOps, with start dates) — recent hires = fresh budget.
-6. Synthesize: data-stack wedge + "why now" signal + buyer persona shortlist.
-7. Recommend persona priority and **ask before drafting**.
-8. Find the top-fit prospect for the *target's* sales motion (the Razorpay-style anchor) with segment-by-segment pipeline math.
-9. Frame the 7-section deliverable: anchor + trophy-fit + financial frame + strategic frame + buyer (per target's ICP) + what Sumble surfaced + the pitch the target should run.
+6. Synthesize five mandatory items: data-stack wedge + "why now" signal + **business problem Sumble solves for the target** (in plain language) + **anchor prospect example** + buyer persona shortlist.
+7. Find the example anchor prospect for the *target's* sales motion (the Razorpay-style account) with segment-by-segment pipeline math. **Verify via `EnrichOrganization` + `FindPeople` before naming.**
+8. Recommend persona priority and **ask before drafting**. Business problem + anchor must already be in the brief.
+9. Frame the **8-section deliverable**: business problem + anchor + trophy-fit + financial frame + strategic frame + buyer (per target's ICP) + what Sumble surfaced + the pitch the target should run.
 10. Draft persona-specific cold email + push to Gmail with SFDC BCC.
+
+**Two non-negotiables in every brief:**
+- **Business Problem Sumble Solves For [Target]** — stated in their own language, anchored to their actual current pain (not Sumble feature-speak).
+- **Example Anchor Prospect** — one verified company that demonstrates the problem in action, with segment-by-segment pipeline math.
 
 **Persona-specific framing rules:**
 - **Marketing leader:** ABM list quality, MQL → SQL conversion, data-driven decisioning. Anchor on pipeline created per quarter.
