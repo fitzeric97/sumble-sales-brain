@@ -395,6 +395,34 @@ Both shapes hit the same five beats: warm receipt → play with non-obvious sign
 
 ---
 
+## Workflows
+
+Two distinct motions, both grounded in this Brain. Operational details (channel IDs, MCP query syntax, the SFDC BCC string) live in Eric's local Claude memory; this section is the high-level shape so future teammates and sessions can re-enter the routine.
+
+### Inbound — Slack-channel processing (daily)
+
+**Trigger:** *"Draft emails based on Slack."*
+
+Pull today's leads from `#unassigned-p0/p1/p2-leads-new-logos` → qualify by pipeline-problem severity (channel tier is unreliable) → research the prospect's industry and GTM motion via WebFetch + Sumble MCP → run dedup against prior contact (Sumble thread `Emails Sent / Past meetings` enrichment + Gmail thread search; drafts count as touched) → draft using the inbound canonical template → push to Gmail with the SFDC email-to-record BCC.
+
+**Use case:** catching every inbound Sumble user that isn't yet assigned to a rep. Highest-volume motion. Voice is warm because the prospect already opted in.
+
+### Outbound — Sumble MCP-driven prospecting (weekly / on-demand)
+
+**Trigger:** *"Let's prospect [hypothesis]"* / *"Find me N accounts that match [X]"* / *"Run an outbound batch on [theme]."*
+
+Pick the play (one of: MQL enrichment, CRM enrichment, tech-stack displacement, hiring-intent triggers, trigger events) → translate to MCP-queryable criteria → find the candidate list with `FindOrganizations` or `RunSqlQuery` → apply the 6-question diagnostic at scale to refine to ~20 → enrich the shortlist (`EnrichOrganization`, `FindJobs`, `FindPeople`, `EnrichPerson`) → identify the right contact per ICP priority (Marketing first) → dedup against existing pipeline → draft using the outbound canonical template → push to Gmail with the SFDC BCC.
+
+**Tech-displacement targets:** ZoomInfo, Apollo, Clay, Common Room, 6sense, HG Insights — accounts running any of these are eligible for a "Sumble as the context layer" pitch.
+
+**Use case:** filling territory gaps where inbound is sparse, running competitor-displacement batches, surfacing trigger-event opportunities at named accounts. Lower volume, higher touch per account. Voice is sharper because the prospect didn't opt in.
+
+### What both motions share
+
+Same Sales Brain — same ICP priority order (Marketing > Sales > Enterprise revenue teams), same 6-question diagnostic, same canonical email patterns, same email rules, same SFDC BCC, same dedup principle (drafts count as touched, prior contact = re-engagement angle not skip).
+
+---
+
 ## Discovery — Command of the Message Cuts
 
 Run discovery on **before-state pain → required capabilities → metrics → proof**. The four required capabilities Sumble delivers, with discovery questions for each:
