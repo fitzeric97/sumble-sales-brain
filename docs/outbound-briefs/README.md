@@ -34,9 +34,15 @@ Plus a **Methodology** block at the bottom documenting how the MCP query path pr
 
 ## Filename convention
 
-`{target-company}-{anchor-prospect}-{YYYY-MM-DD}.md`
+`{Prospect}-{AnchorCompany}-{SumblePlay}.md`
 
-Example: `gong-lastpass-2026-05-06.md` — Sumble pitching Gong, with LastPass as the anchor prospect, brief produced on May 6, 2026.
+- **Prospect** — the target company Sumble is pitching, brand-cased (e.g., `Gong`, `SolarWinds`, `Five9`).
+- **AnchorCompany** — the anchor prospect named in the brief, brand-cased (e.g., `LastPass`, `YETI`, `Mastercard`). For engaged accounts with no anchor company, use the named individual (e.g., `ColetteBishogo`).
+- **SumblePlay** — the dominant Sumble play this brief executes, PascalCase (e.g., `MQLEnrichment`, `TriggerEvent`, `ABMListBuild`, `ExpansionDefense`, `EngagedAccount`, `TechDisplacement`, `CRMEnrichment`).
+
+Example: `Gong-LastPass-TriggerEvent.md` — Sumble pitching Gong, with LastPass as the anchor prospect, executing the new-CRO trigger-event play.
+
+The date sits inside the brief's frontmatter (`**Date:** YYYY-MM-DD`), not the filename — keeps filenames stable across re-runs and clean in URL paths.
 
 ## How briefs get made
 
@@ -54,8 +60,12 @@ Per the methodology:
 
 ## Index
 
-| Date | Target | Anchor | Anchor type | Magnitude |
+| Date | Target | Anchor | Sumble Play | Magnitude |
 |---|---|---|---|---|
-| 2026-05-06 | [SolarWinds](solarwinds-leidos-2026-05-06.md) | Leidos | `[EXPANSION-DEFENSE / CHURN-PREVENT]` | $500K–$2M anchor; ~$7M–$14M defendable ARR/qtr (10–18% of net-new sub ARR) |
-| 2026-05-06 | [Sana](sana-colette-bishogo-2026-05-06.md) | (engaged-account, no anchor) | `[ENGAGED ACCOUNT]` | Live thread + multi-thread to NYC May 21 Summit |
-| 2026-05-06 | [Gong](gong-lastpass-2026-05-06.md) | LastPass | `[WIN-BACK + EXPANSION]` | $500K–$800K anchor; ~$25M new ARR/yr lookalike play |
+| 2026-05-06 | [Genesys](Genesys-Mastercard-ABMListBuild.md) | Mastercard | ABM List-Build | $3M–$7M anchor ACV; ~$160M qualifying pipeline/yr (~18% of $910M net-new Cloud ARR target) |
+| 2026-05-06 | [Five9](Five9-SoFi-MQLEnrichment.md) | SoFi | MQL Enrichment | $750K–$1.5M anchor; ~$45M qualifying pipeline/qtr (~90% of >40% AI growth target) |
+| 2026-05-06 | [Gladly](Gladly-YETI-MQLEnrichment.md) | YETI | MQL Enrichment | $200K–$400K anchor; ~$8M annualized new-logo ARR from a single play |
+| 2026-05-06 | [SolarWinds](SolarWinds-Leidos-ExpansionDefense.md) | Leidos | Expansion-Defense | $500K–$2M anchor; ~$7M–$14M defendable ARR/qtr (10–18% of net-new sub ARR) |
+| 2026-05-06 | [Sana](Sana-ColetteBishogo-EngagedAccount.md) | (engaged-account, no anchor) | Engaged Account | Live thread + multi-thread to NYC May 21 Summit |
+| 2026-05-06 | [Gong](Gong-LastPass-TriggerEvent.md) | LastPass | Trigger Event (new CRO) | $500K–$800K anchor; ~$25M new ARR/yr lookalike play |
+| 2026-05-06 | [Xero](Xero-OrionHealth-TechDisplacement.md) | Orion Health (NZ) | Tech-Stack Displacement | $200K–$500K anchor; ~$2M–$4M annualized NZ mid-market TAM |
