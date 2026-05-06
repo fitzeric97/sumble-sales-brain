@@ -423,7 +423,7 @@ Same Sales Brain — same ICP priority order (Marketing > Sales > Enterprise rev
 
 ### Outbound Sales Brain — target deep-research methodology
 
-**Trigger:** *"Find the best prospect for [target company]"* / *"Run the outbound sales brain on [target]"* / *"Test on [next company]."*
+**Trigger:** *"Create use case for [target]"* (canonical) — also accepts *"Find the best prospect for [target]"* / *"Run the outbound sales brain on [target]."* For cluster runs: *"Create use cases for [cluster name]"* produces one brief per cluster member.
 
 A specialized outbound motion: stand in the target's shoes, deep-research their GTM stack + initiatives + leadership via Sumble MCP, then deliver a persona-tailored pitch anchored on a specific top-fit prospect with segment-by-segment pipeline math.
 

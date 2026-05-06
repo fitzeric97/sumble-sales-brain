@@ -4,6 +4,8 @@ This directory holds **Outbound Strategic Research Briefs** — both the reusabl
 
 ## How to start a new brief
 
+**Trigger phrase:** *"Create use case for [target]"* (single account) or *"Create use cases for [cluster name]"* (cluster — produces one brief per member).
+
 1. Copy [`TEMPLATE.md`](TEMPLATE.md) to `{target-company}-{anchor-prospect}-{YYYY-MM-DD}.md` in this directory.
 2. Run the 10-phase Outbound Sales Brain methodology (Sumble MCP + WebFetch + WebSearch).
 3. Fill every bracketed placeholder. No sections are optional.
