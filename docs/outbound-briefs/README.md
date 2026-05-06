@@ -56,4 +56,6 @@ Per the methodology:
 
 | Date | Target | Anchor | Anchor type | Magnitude |
 |---|---|---|---|---|
+| 2026-05-06 | [SolarWinds](solarwinds-leidos-2026-05-06.md) | Leidos | `[EXPANSION-DEFENSE / CHURN-PREVENT]` | $500K–$2M anchor; ~$7M–$14M defendable ARR/qtr (10–18% of net-new sub ARR) |
+| 2026-05-06 | [Sana](sana-colette-bishogo-2026-05-06.md) | (engaged-account, no anchor) | `[ENGAGED ACCOUNT]` | Live thread + multi-thread to NYC May 21 Summit |
 | 2026-05-06 | [Gong](gong-lastpass-2026-05-06.md) | LastPass | `[WIN-BACK + EXPANSION]` | $500K–$800K anchor; ~$25M new ARR/yr lookalike play |
