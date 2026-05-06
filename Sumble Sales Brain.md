@@ -444,9 +444,15 @@ A specialized outbound motion: stand in the target's shoes, deep-research their 
 9. Frame the **8-section deliverable**: business problem + anchor + trophy-fit + financial frame + strategic frame + buyer (per target's ICP) + what Sumble surfaced + the pitch the target should run.
 10. Draft persona-specific cold email + push to Gmail with SFDC BCC.
 
-**Two non-negotiables in every brief:**
-- **Business Problem Sumble Solves For [Target]** — stated in their own language, anchored to their actual current pain (not Sumble feature-speak).
-- **Example Anchor Prospect** — one verified company that demonstrates the problem in action, with segment-by-segment pipeline math.
+**Non-negotiables in every brief:**
+- **TL;DR (2 lines max)** — business problem + anchor + magnitude. CMO/CRO reads in 30 seconds.
+- **Business Problem Sumble Solves For [Target]** — in *their* language, anchored to a public sales goal when one exists (e.g., Tom Eggemeier's $500M Zendesk AI ARR target). When no public number, fall back to inferred segment math (quota × reps × coverage = pipeline gap). When multiple plausible framings exist, **ask before picking**.
+- **Example Anchor Prospect** — default `[NEW LOGO]` (net-new pipeline); use `[EXPANSION]` only when called out. Tag explicitly. Verified via MCP, with segment-by-segment pipeline math.
+- **Anchor query pre-validation** — state ICP filter set + competitor set + trophy lookalikes *before* running the search. Ask Eric to confirm or correct. Stops B2C-consumer-brand misfires when ICP is actually B2B SaaS.
+
+**Multi-play rule:** include a play only if the signal is **exclusive to Sumble** (not findable in 6Sense / ZoomInfo / Apollo / Clay). When multiple Sumble-exclusive plays converge on the same anchor, include all + show *how Sumble surfaced each* — the methodology is part of the proof.
+
+**Ask, don't guess:** when ambiguity exists in business problem framing, ICP definition, competitor set, or anchor selection, ASK Eric. Better result beats faster result.
 
 **Persona-specific framing rules:**
 - **Marketing leader:** ABM list quality, MQL → SQL conversion, data-driven decisioning. Anchor on pipeline created per quarter.
