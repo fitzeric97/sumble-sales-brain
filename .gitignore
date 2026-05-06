@@ -4,3 +4,10 @@
 *.swp
 .idea/
 .vscode/
+
+# MkDocs build output
+site/
+.cache/
+__pycache__/
+.mkdocs-venv/
+

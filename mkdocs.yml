@@ -1,0 +1,70 @@
+site_name: Sumble Sales Brain
+site_description: Eric's AE knowledge base — plays, battlecards, outbound briefs.
+site_url: https://fitzeric97.github.io/sumble-sales-brain/
+repo_url: https://github.com/fitzeric97/sumble-sales-brain
+repo_name: fitzeric97/sumble-sales-brain
+edit_uri: edit/main/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+exclude_docs: |
+  /CLAUDE.md
+  /AGENTS.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fitzeric97/sumble-sales-brain
