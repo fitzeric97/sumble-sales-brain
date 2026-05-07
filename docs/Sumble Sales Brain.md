@@ -247,6 +247,100 @@ Lead with that. Then drop into whichever play fits the buyer in front of you.
 
 ---
 
+## Free-Value Entry Plays — Demos Before Commercial Conversation
+
+These are the **no-commitment artifacts** Eric delivers before any commercial conversation. They work because they're built on the prospect's own data, formatted in the artifact their team already uses, and reveal a gap they can't unsee.
+
+### The shape every free-value play follows
+
+1. Ask for something the prospect already has — territory list, MQL list, ABM list, named accounts.
+2. Run Sumble MCP enrichment on it.
+3. Hand back the enriched artifact plus a **side-by-side comparison** vs whatever tool they currently use (ZoomInfo, Apollo, 6Sense, Demandbase, Clay).
+
+The comparison is the wedge — they see what their current stack misses on **their own data**, not on a Sumble-curated demo. Once seen, it can't be unseen.
+
+### The killer artifact: side-by-side comparison
+
+For any single lead or account, the comparison table is what wins. ZoomInfo gives 6 fields. Sumble gives the play.
+
+| Field | What ZoomInfo says | What Sumble says |
+|---|---|---|
+| Title | Director, Customer Experience | Senior Director, Customer Experience (since March 2024) |
+| Tech | Salesforce | Salesforce Service Cloud on 5 teams (11 jobs) + Zendesk on 6 teams (12 jobs) — fragmented, mid-platform-decision |
+| Why this lead matters | (no field) | YETI runs two competing CX platforms simultaneously. Stafford is two years into the build. Next two quarters is the consolidation window. |
+| Recommended play | (no field) | Lead with the Service Cloud + Zendesk fragmentation. Use Tecovas / TUMI / UGG as proof points. |
+
+That comparison alone sells the deal. Build one for every prospect, on at least 5 of their leads or accounts.
+
+### The four plays
+
+**Play A — Best 5 in Your Territory (AE / Sales Manager)**
+
+- *Recipient:* AE, Sales Manager, RVP, individual contributor seller.
+- *Input:* their territory list, or industry + segment + size band.
+- *Output:* top 5 in-market accounts ranked by buying-signal density (team-level tech matches, active hiring tied to buying motion, recent leadership moves), with the named team to land in for each.
+- *Delivery time:* 24 hours.
+- *Hook line:* *"Send me your territory list and I'll send back your top 5 in-market accounts by tomorrow, with the team to land in named on each."*
+- *Why it lands:* AEs are coverage-starved. The first qualified account they walk into off this list is worth more than any pitch.
+
+**Play B — MQL Enrichment Sample (CMO / VP Demand Gen / Marketing Ops) ⭐ HEADLINE FOR MARKETING**
+
+- *Recipient:* CMO, VP Marketing, VP Demand Gen, Demand Gen Director, Marketing Ops, ABM Lead.
+- *Input:* 50–200 leads from a recent event — webinar, conference, trade show, dinner, content download.
+- *Output:* enriched spreadsheet, one row per lead, with new columns:
+  - Which team this person actually sits in (not "Engineering" — *"Platform Engineering team that runs Kafka"*).
+  - What that team is currently building (live job-post signals, named projects).
+  - One-line *"why this lead matters"* tied to the prospect's product play.
+  - Recommended follow-up angle (the line the AE should lead with).
+  - Side-by-side comparison vs whatever the prospect's current enrichment tool returned.
+- *Delivery time:* 48 hours for 100 leads.
+- *Hook line:* *"Send me your last event MQL list. I'll send back what each lead looks like inside their company — which team they sit in, what that team is building, what your AEs should lead with. ZoomInfo gives you a title and a phone number; this gives you the play."*
+- *Why it lands:* ties directly to MQL → SQL conversion. The CMO gets a tangible artifact they can hand to their AEs the same week. Marketing Ops becomes the internal champion because they show their CMO *"look what came back."*
+
+**Play C — Stack Gap Audit (RevOps Director / VP RevOps)**
+
+- *Recipient:* RevOps Director, VP RevOps, Sales Ops leadership.
+- *Input:* list of 50–100 named accounts they consider strategic (top of pipeline or top of ABM tier).
+- *Output:* gap-analysis report showing what each account looks like in their current stack (ZoomInfo / 6Sense / Apollo / Demandbase) vs what Sumble surfaces. Typically 3–5 missed signals per account: team-level tech, active hiring tied to buying motion, leadership moves not in any database, project-level details.
+- *Delivery time:* 48 hours.
+- *Hook line:* *"Send me your top 50 accounts. I'll show you what your current stack misses on each — typically 3–5 buying signals per account that ZoomInfo and 6Sense don't surface."*
+- *Why it lands:* RevOps owns the budget for renewing or expanding the data stack. A gap audit on their own accounts is the cleanest *"do not renew 6Sense"* case they could ask for, and it positions Sumble as the layer they add rather than the tool they replace.
+
+**Play D — ABM List Refresh (ABM Lead / Director)**
+
+- *Recipient:* ABM Lead, ABM Director, Demand Gen Director who owns the named-account list.
+- *Input:* their current ABM list (top 100–500 accounts).
+- *Output:* re-ranked list with a *"what changed in the last 90 days"* column for each account — new hires signaling buying motion, new tools signaling migration, leadership moves, project-level changes. Accounts re-tiered based on real signal density, not last quarter's score.
+- *Delivery time:* 72 hours.
+- *Hook line:* *"Send me your ABM list. I'll send back what's changed at each account in the last 90 days that your current scoring model probably isn't picking up."*
+- *Why it lands:* ABM lists go stale within 60–90 days. Most ABM leads can't tell you what changed last week without manually checking each account. Sumble does this in bulk and surfaces the buying-motion changes that matter.
+
+### Delivery format (every play, every time)
+
+- **Spreadsheet** with the enriched data — the artifact their team already uses.
+- **1-page written brief** walking through 3–5 highlight examples from the list — the *"here's what we found that you couldn't have"* section.
+- **5-minute Loom video** walking through methodology and 2–3 best examples. Personal, shows the work, demonstrates the brain behind Sumble.
+- **Side-by-side comparison table** vs the tool they currently use, on at least 5 leads or accounts.
+
+The Loom is mandatory. The brain behind Sumble is the differentiator; a CSV alone undersells the work.
+
+### How free-value plays connect to the email structure
+
+Each play maps to a hook + sign-off pattern. The free-value offer is the **hook** of the email; the persona-question from the cold-email voice map is the **sign-off**. The play makes the question concrete instead of abstract.
+
+| Play | Hook frame | Sign-off frame |
+|---|---|---|
+| MQL Enrichment Sample (Marketing) | Their recent event + the qualification math their team is about to face | *"Want to send the list and see what each one looks like inside the company?"* |
+| Stack Gap Audit (RevOps) | Their renewal or eval window + what RevOps usually discovers too late | *"Send me your top 50 accounts and I'll show you what's invisible to ZoomInfo and 6Sense?"* |
+| ABM List Refresh (ABM Lead) | The 60–90 day ABM-list-staleness problem | *"Want me to refresh yours with what's changed in the last 90 days?"* |
+| Best 5 in Territory (AE) | The coverage-starved AE problem | *"Send me your territory and I'll send back your top 5 by tomorrow?"* |
+
+### The unifying principle of every free-value play
+
+Every play makes the prospect's pipeline math better in a way they can measure inside two weeks. No abstract "context" claims. No "we have data ZoomInfo doesn't" without proof on their accounts. Sumble proves it on their data, in their format, in 24–72 hours, and the prospect walks away with an artifact their team uses Monday morning.
+
+---
+
 ## How We Sell — The Zendesk Brief as Style Reference
 
 There's a real internal-discussion deck (`Sumble_Zendesk_MQL_3.html`) built for Zendesk that exemplifies how we sell at Sumble. **It is not a template to repeat for every prospect.** It's an example of the *style of selling* we want to do: value-based, specific to that buyer, anchored in their own strategic numbers, with real signal pulled live — not generic claims.
